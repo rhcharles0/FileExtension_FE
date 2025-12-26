@@ -1,7 +1,7 @@
 'use client';
 // 1. 고정 확장자 목록
-import { useExtensions } from '@/hooks/useExtenstions';
-import { Button } from '@/components/ui/button';
+import { useExtensions } from '../../hooks/useExtenstions';
+import { Button } from '../../components/ui/button';
 import {
     Form,
     FormControl,
@@ -9,8 +9,8 @@ import {
     FormItem,
     FormLabel,
     FormMessage,
-} from '@/components/ui/form';
-import { Input } from '@/components/ui/input';
+} from '../../components/ui/form';
+import { Input } from '../../components/ui/input';
 import { X, Loader2 } from 'lucide-react';
 
 const InputSection = () => {
