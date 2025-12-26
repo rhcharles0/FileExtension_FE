@@ -26,10 +26,9 @@ const formSchema = z.object({
             z.literal(''), // 💡 빈 문자열("")은 허용
             ValidExtensionSchema, // 💡 빈 문자열이 아니면 엄격한 확장자 검사 적용
         ])
-        .default(''),
 });
 
-type FormSchemaType = z.infer<typeof formSchema>;
+export type FormSchemaType = z.infer<typeof formSchema>;
 
 /**
  * 1. 백엔드에서 차단 상태를 포함한 확장자 목록을 불러오는 함수
