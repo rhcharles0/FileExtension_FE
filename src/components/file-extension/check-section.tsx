@@ -1,10 +1,10 @@
 'use client';
 
 import { Checkbox } from '../ui/checkbox';
-import { Label } from '@/components/ui/label';
+import { Label } from '../../components/ui/label';
 import { useState, useEffect, useCallback } from 'react';
 import { FileExtension, ItemSelections } from '@/types/file-extension';
-import { useExtensions } from '@/hooks/useExtenstions';
+import { useExtensions } from '../../hooks/useExtenstions';
 
 const FIXED_EXTENSIONS = ['bat', 'cmd', 'com', 'cpl', 'exe', 'scr', 'js'];
 
