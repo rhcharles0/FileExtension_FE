@@ -1,7 +1,7 @@
 'use client';
 
-import CheckSection from '@/components/file-extension/check-section';
-import InputSection from '@/components/file-extension/input-section';
+import CheckSection from '../../components/file-extension/check-section';
+import InputSection from '../../components/file-extension/input-section';
 
 const Page = () => {
     return (
